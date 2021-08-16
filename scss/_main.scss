@@ -1,0 +1,8 @@
+#main {
+  height: 200px;
+  background-color: $myColor3;
+  @include flexCenter();
+  p{
+    font: 50px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  }
+}
