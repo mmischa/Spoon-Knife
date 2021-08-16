@@ -1,22 +1,29 @@
-$myColor: rgb(255,200,255);
-$myColor2: rgb(0,0,0);
+$myColor: rgb(8, 57, 156);
+$myColor2: rgb(234, 234, 234);
+$myColor3: rgb(150, 150, 150);
 
 * {
-  margin:0px;
-  padding:0px;
-  Background-color:$myColor;
+  margin: 0px;
+  padding: 0px;
+  Background-color: $myColor;
   color: $myColor2;
 }
 
-#octocat {
-  display: block;
-  width:384px;
-  margin: 50px auto;
-}
 
-p {
-  display: block;
-  width: 400px;
-  margin: 50px auto;
-  font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
+main {
+  height: 200px;
+  width: 100%;
+  background-color: $myColor3;
+
+  #octocat {
+    display: block;
+    width: 384px;
+    margin: 50px auto;
+  }
+  p {
+    display: block;
+    width: 400px;
+    margin: 50px auto;
+    font: 30px Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace;
+  }
 }
